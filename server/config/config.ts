@@ -9,9 +9,9 @@ process.env.NODE_ENV = process.env.NODE_ENV || "dev";
 // URL de conexión de Base de datos
 
 if(process.env.NODE_ENV === "dev"){
-    process.env.URLDB = 'mongodb+srv://alumno:awoseu2@cluster0-msy57.mongodb.net/AWOSEU2';
+    process.env.URLDB = 'mongodb+srv://alumno:awoseu2@cluster0-msy57.mongodb.net/AWOSINTER';
 } else {
-    process.env.URLDB = 'mongodb+srv://alumno:awoseu2@cluster0-msy57.mongodb.net/AWOSEU2';
+    process.env.URLDB = 'mongodb+srv://alumno:awoseu2@cluster0-msy57.mongodb.net/AWOSINTER';
 }
 
 process.env.SEED = process.env.SEED || '#$&!QYcKADSA/=)(?=';
